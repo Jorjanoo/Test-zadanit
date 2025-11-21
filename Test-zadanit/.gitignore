@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build
+bin/
+obj/
+
+# System
+Thumbs.db
+Desktop.ini
+
+# Output
+Output/*.xml
+!Output/.keep
+
+# Temporary files
+*.tmp
+*.cache
+*.log

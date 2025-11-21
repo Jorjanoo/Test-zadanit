@@ -1,0 +1,11 @@
+Simple UML (text) - components:
+
+[MainForm] --> starts --> RunXslt()
+[MainForm] --> calls --> AddEmployeeSalarySum()
+[MainForm] --> calls --> AddTotalPayToData1()
+[MainForm] --> displays --> dgvEmployees, dgvByMonth
+
+Data flow:
+Data/Data1.xml --(XSLT)--> Output/Employees.xml --(postprocess)--> add sumSalary
+Data/Data1.xml <-- add totalAmount attribute
+
